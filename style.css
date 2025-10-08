@@ -17,11 +17,11 @@ body {
     justify-content: center;  
 }
 h1 {
-    font-size: 70px;
+    font-size: 80px;
     background: linear-gradient(to left,#703660,#be0735ce,#d80521);
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
-    filter: drop-shadow(4px 4px 4px rgb(181, 140, 206));
+    filter: drop-shadow(2px 2px 1px rgb(181, 140, 206)); 
     font-family: 'Lobster Two', cursive;
     margin-top: 70px;
 }
@@ -34,7 +34,7 @@ h1 {
     background-color: rgba(251, 248, 249, 0.82);
     opacity: 80%;
     height: 300px;
-    width: 200px;
+    width: 300px;
     margin-top: 50px;
     border: none;
     border-radius: 30px;
@@ -52,7 +52,7 @@ h3 {
 }
 .days, .hours, .minutes, .seconds {
     font-family: 'Montserrat', sans-serif;
-    font-size: 40px; 
+    font-size: 50px; 
     text-shadow: 3px 3px 4px rgb(138, 137, 135);
 }
 .NY {
@@ -94,15 +94,15 @@ h3 {
 }
 @media all and (max-width: 800px) {
 h1  {
-    font-size: 50px;
+    font-size: 70px;
     margin-left: 50px;
     margin-top: 40px;
 }
 h3 {
-    font-size: 25px;
+    font-size: 30px;
 }
 .days, .hours, .minutes, .seconds {
-    font-size: 35px;
+    font-size: 50px;
 }
 .NY {
     font-size: 70px;
@@ -116,15 +116,15 @@ h3 {
 }
 @media all and (max-width: 500px) {
 h1  {
-    font-size: 40px;
+    font-size: 60px;
     margin-left: 35px;
     margin-top: 30px;
     }
 h3 {
-    font-size: 20px;
+    font-size: 26px;
 }
 .days, .hours, .minutes, .seconds {
-    font-size: 30px;
+    font-size: 50px;
 }
 .NY {
     font-size: 50px;
@@ -138,18 +138,18 @@ h3 {
 }
 @media all and (max-width: 400px) {
     h1  {
-        font-size: 40px;
+        font-size: 50px;
         margin-left: 35px;
         margin-top: 30px;
         }
     h3 {
-        font-size: 20px;
+        font-size: 26px;
     }
     .days, .hours, .minutes, .seconds {
-        font-size: 30px;
+        font-size: 40px;
     }
     .NY {
-        font-size: 35px;
+        font-size: 40px;
     }
     #myButton  {
         margin-left: 75px;
