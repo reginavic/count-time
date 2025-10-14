@@ -92,6 +92,14 @@ h3 {
     font-size: 80px;
 }
 }
+@media all and (max-width: 860px){
+#myButton {
+    margin-left: 100px;
+}
+#myButtonTwo {
+    margin-left: 50px;
+}
+}
 @media all and (max-width: 800px) {
 h1  {
     font-size: 70px;
@@ -112,6 +120,14 @@ h3 {
 }
 #myButtonTwo {
     margin-left: 20px;
+}
+}
+@media all and (max-width: 540px){
+#myButton {
+    margin-left: 150px;
+}
+#myButtonTwo {
+    margin-left: 50px;
 }
 }
 @media all and (max-width: 500px) {
