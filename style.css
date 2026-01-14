@@ -17,10 +17,10 @@ body {
 }
 h1 {
     font-size: 80px;
-    background: linear-gradient(to left,#703660,#be0735ce,#d80521);
+    background: linear-gradient(to left,#4c163d, #750514,#bd071f);
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
-    filter: drop-shadow(2px 2px 1px rgb(181, 140, 206)); 
+    filter: drop-shadow(2px 2px 1px #fac8cf); 
     font-family: 'Lobster Two', cursive;
     margin-top: 70px;
 }
